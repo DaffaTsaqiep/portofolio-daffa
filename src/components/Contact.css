@@ -1,0 +1,84 @@
+.contact {
+  position: relative;
+  background-color: var(--cream);
+  padding: 100px 40px 80px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contact-diagonal {
+  position: absolute;
+  top: 0; right: 0;
+  width: 55%;
+  height: 100%;
+  background-color: var(--olive-light);
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+  opacity: 0.30;
+  z-index: 0;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+
+.contact-title {
+  font-family: 'COLORA', sans-serif;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  line-height: 0.95;
+  color: var(--olive-dark);
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.contact-sub {
+  font-size: 1rem;
+  color: var(--olive);
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.contact-ig {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--olive);
+  color: var(--cream);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 13px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 3px 4px 0px var(--olive-dark);
+}
+
+.contact-ig:hover {
+  background-color: var(--olive-dark);
+  transform: translateY(-2px);
+}
+
+.ig-icon {
+  display: flex;
+  align-items: center;
+}
+
+.contact-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  max-width: 480px;
+  z-index: 1;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  min-height: 260px;
+}

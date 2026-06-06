@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background: rgba(245, 240, 208, 0.92);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 16px rgba(60,64,32,0.10);
+}
+
+.nav-brand {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--olive-dark);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 36px;
+}
+
+.nav-links a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--olive-dark);
+  text-decoration: none;
+  transition: color 0.2s;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--olive);
+  transition: width 0.25s ease;
+  border-radius: 2px;
+}
+
+.nav-links a:hover { color: var(--olive-light); }
+.nav-links a:hover::after { width: 100%; }
+
+.nav-links a.active {
+  color: var(--olive);
+}
+.nav-links a.active::after {
+  width: 100%;
+}
+
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 50%;
+}
