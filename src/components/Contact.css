@@ -23,6 +23,7 @@
   position: relative;
   z-index: 2;
   flex: 1;
+  max-width: 480px; /* ← tambah ini */
 }
 
 .contact-title {
@@ -35,7 +36,8 @@
 }
 
 .contact-sub {
-  font-size: 1rem;
+  font-size: 0.85rem; /* ← kecilkan sedikit */
+  line-height: 1.7;
   color: var(--olive);
   font-weight: 600;
   margin-bottom: 28px;
@@ -71,8 +73,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 50%;
-  max-width: 480px;
+  width: 42%; /* ← kurangi */
   z-index: 1;
 }
 

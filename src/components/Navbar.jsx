@@ -26,9 +26,9 @@ export default function Navbar() {
 </NavLink>
       <ul className="nav-links">
         <li><NavLink to="/"            className={({isActive}) => isActive ? 'active' : ''} end>Home</NavLink></li>
-        <li><NavLink to="/achievement" className={({isActive}) => isActive ? 'active' : ''}>Achievement</NavLink></li>
+        <li><NavLink to="/achievement" className={({isActive}) => isActive ? 'active' : ''}>Experience</NavLink></li>
         <li><NavLink to="/project"     className={({isActive}) => isActive ? 'active' : ''}>Project</NavLink></li>
-        <li><NavLink to="/contact"     className={({isActive}) => isActive ? 'active' : ''}>Contact</NavLink></li>
+        <li><NavLink to="/contact"     className={({isActive}) => isActive ? 'active' : ''}>About</NavLink></li>
         
       </ul>
     </nav>

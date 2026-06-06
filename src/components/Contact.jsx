@@ -7,8 +7,8 @@ export default function Contact() {
     <section className="contact page-section">
       <div className="contact-diagonal"></div>
       <div className="contact-content">
-        <h2 className="contact-title">CONTACT<br />ME!</h2>
-        <p className="contact-sub">jika anda butuh sesuatu?!</p>
+        <h2 className="contact-title">Tentang<br />Saya?!</h2>
+        <p className="contact-sub">Halo! Saya Daffa Tsaqiif Pratama, seorang pelajar Rekayasa Perangkat Lunak (RPL) yang berfokus pada dunia Web Development dan Data Science. Hingga membangun dashboard Machine Learning interaktif dengan Python dan Streamlit. Di luar aktivitas coding, saya juga aktif mengeksplorasi dunia kreatif seperti 3D modeling di Blender dan digital art. Untuk lebih mengenal saya Ikuti saya di bawah ini hehe,</p>
         <a
           href="https://instagram.com/tsqieffp_"
           target="_blank"

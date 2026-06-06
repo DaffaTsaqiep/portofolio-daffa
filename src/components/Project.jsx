@@ -22,7 +22,7 @@ export default function Project() {
         </a>
         <div className="page-nav">
           <Link to="/achievement" className="page-nav-btn page-nav-btn--back">← Achievement</Link>
-          <Link to="/contact"     className="page-nav-btn">Contact →</Link>
+          <Link to="/contact"     className="page-nav-btn">About →</Link>
         </div>
       </div>
       <div className="project-image">
