@@ -73,7 +73,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 42%; /* ← kurangi */
+  width: 35%; /* ← kurangi */
   z-index: 1;
 }
 
